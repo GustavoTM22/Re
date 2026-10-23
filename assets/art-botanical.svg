@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900" role="img" aria-label="Ilustración botánica en tonos salvia y dorado">
+  <defs>
+    <linearGradient id="sageBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9ede2"/>
+      <stop offset="0.55" stop-color="#dfe5d7"/>
+      <stop offset="1" stop-color="#cdd6c3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#fdfaf2" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fdfaf2" stop-opacity="0"/>
+    </radialGradient>
+    <g id="leaf">
+      <path d="M0 20 C 18 2 48 -4 78 2 C 60 22 32 32 0 20 Z"/>
+      <path d="M2 20 C 26 18 50 12 74 4" fill="none" stroke="#f2eee1" stroke-opacity="0.5" stroke-width="1.2"/>
+    </g>
+    <g id="sprig">
+      <path d="M0 250 C 8 170 22 100 66 24" fill="none" stroke="#6f8169" stroke-width="1.6" stroke-linecap="round"/>
+      <use href="#leaf" transform="translate(4 200) rotate(-32) scale(0.72)"/>
+      <use href="#leaf" transform="translate(-52 196) rotate(210) scale(0.58)"/>
+      <use href="#leaf" transform="translate(12 148) rotate(-44) scale(0.64)"/>
+      <use href="#leaf" transform="translate(-40 140) rotate(198) scale(0.5)"/>
+      <use href="#leaf" transform="translate(26 96) rotate(-55) scale(0.55)"/>
+      <use href="#leaf" transform="translate(-24 88) rotate(186) scale(0.42)"/>
+    </g>
+  </defs>
+
+  <rect width="900" height="900" fill="url(#sageBg)"/>
+  <rect x="30" y="30" width="840" height="840" fill="none" stroke="#c6a56a" stroke-opacity="0.4" stroke-width="1.2"/>
+  <rect x="42" y="42" width="816" height="816" fill="none" stroke="#fdfaf2" stroke-opacity="0.36" stroke-width="0.8"/>
+
+  <circle cx="450" cy="440" r="292" fill="url(#glow)"/>
+  <circle cx="450" cy="440" r="292" fill="none" stroke="#c6a56a" stroke-opacity="0.38" stroke-width="1.2"/>
+  <circle cx="450" cy="440" r="270" fill="none" stroke="#fdfaf2" stroke-opacity="0.55" stroke-width="0.8" stroke-dasharray="1 7" stroke-linecap="round"/>
+
+  <g opacity="0.3" fill="#8a9b84">
+    <use href="#sprig" transform="translate(150 790) rotate(-18) scale(1.2)"/>
+    <use href="#sprig" transform="translate(760 260) rotate(148) scale(1.05)"/>
+  </g>
+
+  <g transform="translate(452 738) rotate(-4)">
+    <path d="M0 0 C -6 -120 2 -270 20 -410 C 26 -458 34 -500 48 -540" fill="none" stroke="#5f715a" stroke-width="2" stroke-linecap="round"/>
+    <use href="#leaf" transform="translate(-8 -30) rotate(-48) scale(0.95)" fill="#81947b"/>
+    <use href="#leaf" transform="translate(2 -64) rotate(138) scale(0.8)" fill="#93a48c"/>
+    <use href="#leaf" transform="translate(0 -142) rotate(-52) scale(0.92)" fill="#7e9177"/>
+    <use href="#leaf" transform="translate(10 -178) rotate(134) scale(0.76)" fill="#8fa088"/>
+    <use href="#leaf" transform="translate(6 -252) rotate(-58) scale(0.84)" fill="#81947b"/>
+    <use href="#leaf" transform="translate(18 -286) rotate(128) scale(0.68)" fill="#9aab92"/>
+    <use href="#leaf" transform="translate(14 -352) rotate(-64) scale(0.76)" fill="#87997f"/>
+    <use href="#leaf" transform="translate(28 -384) rotate(122) scale(0.58)" fill="#93a48c"/>
+    <use href="#leaf" transform="translate(26 -440) rotate(-70) scale(0.62)" fill="#8fa088"/>
+    <use href="#leaf" transform="translate(40 -470) rotate(116) scale(0.48)" fill="#9aab92"/>
+    <use href="#leaf" transform="translate(42 -512) rotate(-76) scale(0.48)" fill="#87997f"/>
+
+    <g fill="#c6a56a">
+      <circle cx="4" cy="-118" r="3.4"/>
+      <circle cx="2" cy="-220" r="2.7"/>
+      <circle cx="18" cy="-330" r="3"/>
+      <circle cx="32" cy="-418" r="2.4"/>
+      <circle cx="44" cy="-500" r="2.2"/>
+    </g>
+  </g>
+
+  <g fill="#c6a56a" opacity="0.85">
+    <path d="M190 210 c.6 6.6 4.2 10.2 10.8 10.8 -6.6.6 -10.2 4.2 -10.8 10.8 -.6-6.6-4.2-10.2-10.8-10.8 6.6-.6 10.2-4.2 10.8-10.8Z"/>
+    <path d="M700 650 c.45 4.8 3 7.5 7.8 7.8 -4.8.45 -7.35 3 -7.8 7.8 -.45-4.8-3-7.35-7.8-7.8 4.8-.45 7.35-3 7.8-7.8Z" opacity="0.7"/>
+  </g>
+
+  <g fill="#5f715a" opacity="0.55">
+    <circle cx="242" cy="680" r="2"/>
+    <circle cx="676" cy="236" r="1.6"/>
+    <circle cx="716" cy="300" r="1.1"/>
+    <circle cx="196" cy="740" r="1.3"/>
+  </g>
+
+  <text x="450" y="812" text-anchor="middle" fill="#5f715a" font-family="Georgia, serif" font-size="17" font-style="italic" letter-spacing="4">todo por descubrir</text>
+</svg>

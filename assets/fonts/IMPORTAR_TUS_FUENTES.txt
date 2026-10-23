@@ -1,0 +1,13 @@
+Para recuperar exactamente las tipografías de tu página original:
+
+1. Abre el archivo "New folder.7z" que proporcionaste.
+2. Extrae los archivos de "assets/fonts/" de TU PROPIO archivo.
+3. Copia los archivos .woff2 a esta carpeta:
+   GATM_Studio_Web/sitio/assets/fonts/
+4. Recarga la web en GATM Studio.
+
+Mientras no se hayan copiado, el sitio utiliza fuentes de sistema
+(Georgia, Segoe UI, cursiva), sin impedir su funcionamiento.
+
+También puedes importar otras fuentes propias desde la sección
+"Imágenes y archivos" y pulsar "Usar" junto a la fuente.

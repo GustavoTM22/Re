@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img" aria-label="Luna creciente y estrellas bajo un arco celestial">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f0e3"/>
+      <stop offset="1" stop-color="#ebe1ce"/>
+    </linearGradient>
+    <linearGradient id="night" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#33413f"/>
+      <stop offset="0.5" stop-color="#253330"/>
+      <stop offset="1" stop-color="#1b2522"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ead8ad"/>
+      <stop offset="1" stop-color="#bf9857"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="0.5" cy="0.28" r="0.65">
+      <stop offset="0" stop-color="#7f9ba0" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#7f9ba0" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="archClip">
+      <path d="M190 1130 V545 a260 260 0 0 1 520 0 V1130 Z"/>
+    </clipPath>
+    <mask id="moonMask">
+      <rect width="900" height="1200" fill="#fff"/>
+      <circle cx="568" cy="454" r="58" fill="#000"/>
+    </mask>
+  </defs>
+
+  <rect width="900" height="1200" fill="url(#paper)"/>
+  <rect x="32" y="32" width="836" height="1136" rx="6" fill="none" stroke="#c6a56a" stroke-opacity="0.42" stroke-width="1.2"/>
+  <rect x="44" y="44" width="812" height="1112" rx="4" fill="none" stroke="#c6a56a" stroke-opacity="0.16" stroke-width="0.8"/>
+
+  <path d="M190 1130 V545 a260 260 0 0 1 520 0 V1130 Z" fill="url(#night)"/>
+  <path d="M190 1130 V545 a260 260 0 0 1 520 0 V1130" fill="none" stroke="#c6a56a" stroke-opacity="0.38" stroke-width="1.4"/>
+  <path d="M214 1130 V548 a236 236 0 0 1 472 0 V1130" fill="none" stroke="#e3cfa7" stroke-opacity="0.14" stroke-width="0.9"/>
+
+  <g clip-path="url(#archClip)">
+    <ellipse cx="450" cy="380" rx="300" ry="250" fill="url(#haze)"/>
+    <circle cx="512" cy="482" r="62" fill="url(#gold)" mask="url(#moonMask)" opacity="0.92"/>
+
+    <g fill="#f5ead2">
+      <circle cx="270" cy="360" r="2.2" opacity="0.8"/>
+      <circle cx="332" cy="300" r="1.3" opacity="0.55"/>
+      <circle cx="402" cy="382" r="1.6" opacity="0.65"/>
+      <circle cx="480" cy="300" r="1.1" opacity="0.45"/>
+      <circle cx="604" cy="372" r="1.8" opacity="0.7"/>
+      <circle cx="650" cy="470" r="1.2" opacity="0.45"/>
+      <circle cx="260" cy="520" r="1.4" opacity="0.5"/>
+      <circle cx="350" cy="620" r="1.8" opacity="0.6"/>
+      <circle cx="578" cy="602" r="1.2" opacity="0.45"/>
+      <circle cx="630" cy="700" r="1.6" opacity="0.55"/>
+      <circle cx="300" cy="760" r="1.1" opacity="0.4"/>
+      <circle cx="420" cy="720" r="1.5" opacity="0.5"/>
+      <circle cx="540" cy="800" r="1.9" opacity="0.6"/>
+      <circle cx="360" cy="900" r="1.2" opacity="0.4"/>
+      <circle cx="590" cy="930" r="1.4" opacity="0.45"/>
+      <circle cx="470" cy="1010" r="1.1" opacity="0.35"/>
+      <circle cx="300" cy="1060" r="1.5" opacity="0.4"/>
+      <circle cx="640" cy="1040" r="1.2" opacity="0.35"/>
+    </g>
+
+    <g fill="#e3cfa7">
+      <path d="M390 250 c.5 5.4 3.4 8.3 8.8 8.8 -5.4.5 -8.3 3.4 -8.8 8.8 -.5-5.4-3.4-8.3-8.8-8.8 5.4-.5 8.3-3.4 8.8-8.8Z" opacity="0.85"/>
+      <path d="M610 330 c.4 4.2 2.7 6.5 6.9 6.9 -4.2.4 -6.5 2.7 -6.9 6.9 -.4-4.2-2.7-6.5-6.9-6.9 4.2-.4 6.5-2.7 6.9-6.9Z" opacity="0.65"/>
+      <path d="M262 665 c.4 4.2 2.7 6.5 6.9 6.9 -4.2.4 -6.5 2.7 -6.9 6.9 -.4-4.2-2.7-6.5-6.9-6.9 4.2-.4 6.5-2.7 6.9-6.9Z" opacity="0.55"/>
+      <path d="M535 940 c.35 3.6 2.3 5.6 5.9 5.9 -3.6.35 -5.55 2.3 -5.9 5.9 -.35-3.6-2.3-5.55-5.9-5.9 3.6-.35 5.55-2.3 5.9-5.9Z" opacity="0.5"/>
+    </g>
+
+    <path d="M450 1130 V680" stroke="#c6a56a" stroke-opacity="0.18" stroke-width="1"/>
+    <g fill="#c6a56a" opacity="0.55">
+      <circle cx="450" cy="690" r="2.4"/>
+      <circle cx="450" cy="760" r="1.6" opacity="0.7"/>
+      <circle cx="450" cy="850" r="1.2" opacity="0.5"/>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#7d9077" stroke-width="1.5" stroke-linecap="round" opacity="0.8">
+    <path d="M150 1110 C150 1000 128 940 96 884"/>
+    <path d="M150 1052 C168 1018 184 1000 210 982"/>
+    <path d="M128 986 C110 958 106 934 108 910"/>
+    <path d="M748 1110 C748 1000 774 946 808 894"/>
+    <path d="M748 1056 C730 1022 714 1002 688 984"/>
+    <path d="M772 990 C792 962 796 938 792 912"/>
+  </g>
+  <g fill="#8a9b84" opacity="0.55">
+    <ellipse cx="128" cy="1060" rx="8" ry="22" transform="rotate(24 128 1060)"/>
+    <ellipse cx="108" cy="1010" rx="7" ry="19" transform="rotate(48 108 1010)"/>
+    <ellipse cx="168" cy="1028" rx="7" ry="18" transform="rotate(-28 168 1028)"/>
+    <ellipse cx="770" cy="2060" rx="0" ry="0"/>
+    <ellipse cx="770" cy="1064" rx="8" ry="21" transform="rotate(-24 770 1064)"/>
+    <ellipse cx="788" cy="1012" rx="7" ry="19" transform="rotate(-48 788 1012)"/>
+    <ellipse cx="730" cy="1032" rx="7" ry="18" transform="rotate(28 730 1032)"/>
+  </g>
+
+  <g fill="#c6a56a">
+    <circle cx="450" cy="196" r="2.4" opacity="0.7"/>
+    <path d="M450 168 c.6 6.5 4.1 10 10.6 10.6 -6.5.6 -10 4.1 -10.6 10.6 -.6-6.5-4.1-10 -10.6-10.6 6.5-.6 10-4.1 10.6-10.6Z" opacity="0.8"/>
+  </g>
+
+  <text x="450" y="1168" text-anchor="middle" fill="#8a6a3c" font-family="Georgia, serif" font-size="17" font-style="italic" letter-spacing="4">bajo las estrellas</text>
+</svg>

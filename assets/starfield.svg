@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="620" viewBox="0 0 620 620">
+  <g fill="#f1e4c8">
+    <circle cx="38" cy="64" r="1" opacity=".35"/>
+    <circle cx="112" cy="28" r="1.4" opacity=".22"/>
+    <circle cx="168" cy="112" r=".8" opacity=".4"/>
+    <circle cx="236" cy="52" r="1.1" opacity=".18"/>
+    <circle cx="304" cy="94" r=".7" opacity=".3"/>
+    <circle cx="356" cy="36" r="1.2" opacity=".2"/>
+    <circle cx="428" cy="78" r=".9" opacity=".35"/>
+    <circle cx="508" cy="44" r="1.5" opacity=".2"/>
+    <circle cx="574" cy="106" r=".8" opacity=".3"/>
+    <circle cx="72" cy="188" r="1.2" opacity=".2"/>
+    <circle cx="142" cy="236" r=".7" opacity=".35"/>
+    <circle cx="212" cy="178" r="1" opacity=".25"/>
+    <circle cx="274" cy="244" r="1.3" opacity=".16"/>
+    <circle cx="346" cy="204" r=".8" opacity=".3"/>
+    <circle cx="406" cy="262" r="1" opacity=".2"/>
+    <circle cx="486" cy="212" r=".7" opacity=".35"/>
+    <circle cx="558" cy="282" r="1.2" opacity=".18"/>
+    <circle cx="24" cy="340" r=".8" opacity=".3"/>
+    <circle cx="96" cy="412" r="1.3" opacity=".2"/>
+    <circle cx="174" cy="356" r=".9" opacity=".3"/>
+    <circle cx="242" cy="426" r=".7" opacity=".25"/>
+    <circle cx="318" cy="378" r="1.4" opacity=".15"/>
+    <circle cx="388" cy="446" r="1" opacity=".28"/>
+    <circle cx="462" cy="392" r=".8" opacity=".3"/>
+    <circle cx="532" cy="462" r="1.1" opacity=".2"/>
+    <circle cx="596" cy="408" r=".7" opacity=".3"/>
+    <circle cx="54" cy="520" r="1.2" opacity=".22"/>
+    <circle cx="132" cy="572" r=".8" opacity=".3"/>
+    <circle cx="206" cy="512" r="1.1" opacity=".2"/>
+    <circle cx="286" cy="574" r=".7" opacity=".35"/>
+    <circle cx="362" cy="532" r="1.3" opacity=".18"/>
+    <circle cx="438" cy="588" r=".9" opacity=".28"/>
+    <circle cx="512" cy="536" r=".7" opacity=".3"/>
+    <circle cx="588" cy="596" r="1.2" opacity=".2"/>
+  </g>
+  <g fill="#d9bd86">
+    <path d="M196 108 c.4 4.4 2.8 6.8 7.2 7.2 -4.4.4 -6.8 2.8 -7.2 7.2 -.4-4.4-2.8-6.8-7.2-7.2 4.4-.4 6.8-2.8 7.2-7.2Z" opacity=".4"/>
+    <path d="M468 328 c.35 3.8 2.4 5.8 6.2 6.2 -3.8.35 -5.85 2.4 -6.2 6.2 -.35-3.8-2.4-5.85-6.2-6.2 3.8-.35 5.85-2.4 6.2-6.2Z" opacity=".3"/>
+    <path d="M92 456 c.3 3.2 2 4.9 5.2 5.2 -3.2.3 -4.9 2 -5.2 5.2 -.3-3.2-2-4.9-5.2-5.2 3.2-.3 4.9-2 5.2-5.2Z" opacity=".28"/>
+  </g>
+</svg>
